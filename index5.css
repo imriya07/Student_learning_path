@@ -1,0 +1,8 @@
+.main{
+    height: 100%;
+    width: 100vw;
+    background-image: linear-gradient(to right, #ccccf5 , rgb(253, 254, 255));
+}
+.getting{
+    color: #5A4BDA;
+}

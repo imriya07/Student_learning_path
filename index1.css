@@ -1,0 +1,333 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Ensures the navbar spans the full width of the viewport */
+    z-index: 1000;
+}
+.main {
+    background-image: linear-gradient(to right, #ccccf5, rgb(253, 254, 255));
+    padding-bottom: 20px;
+}
+
+.container-fluid {
+    background-color: white;
+    position: static;
+}
+
+.navbar-nav {
+    font-size: 24px;
+    color: rgb(163, 71, 71);
+}
+
+.nav-item:hover {
+    color: blue;
+}
+
+.btn:hover {
+    background-color: rgb(245, 105, 54);
+}
+
+.btn {
+    height: 4rem;
+    width: 8rem;
+    font-size: 18px;
+}
+
+.active:hover,
+.nav-link:hover {
+    color: blue;
+}
+
+.search i:hover {
+    color: blue;
+}
+
+.search i {
+    font-size: 24px;
+    margin-right: 1rem;
+}
+
+.home-page h1 {
+    color: #5A4BDA;
+    font-weight: bold;
+}
+
+.container {
+    width: 100%;
+}
+
+.container-text {
+    margin-top: 5rem;
+    margin-left: 2rem;
+    border: 2px solid rgb(255, 255, 255);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.btn1 {
+    margin-left: 1rem;
+}
+
+.button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 5rem;
+    justify-content: center;
+}
+
+.btn1:hover,
+.btn2:hover {
+    background-color: rgb(78, 78, 189);
+    color: white;
+}
+
+.btn1,
+.btn2 {
+    border-radius: 10px;
+    height: 4rem;
+    width: 10rem;
+    border: none;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.home-page {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.home-page p {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image-container img {
+    margin-top: 5rem;
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .navbar-nav {
+        font-size: 20px;
+    }
+    
+    .btn {
+        height: 3rem;
+        width: 6rem;
+        font-size: 16px;
+    }
+    
+    .search i {
+        font-size: 20px;
+    }
+    
+    .container-text {
+        margin-left: 1rem;
+    }
+    
+    .btn1 {
+        margin-left: 0.5rem;
+    }
+    
+    .button {
+        gap: 5px;
+    }
+    
+    .btn1,
+    .btn2 {
+        height: 3rem;
+        width: 8rem;
+        font-size: 16px;
+    }
+    
+    .home-page {
+        margin-top: 1rem;
+        flex-direction: column; 
+        align-items: center; 
+    }
+    
+    .home-page h1 {
+        font-size: 24px; 
+    }
+    
+    .home-page p {
+        font-size: 16px;
+    }
+}
+.main-bg{
+    height: 90vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #ccccf5 , rgb(253, 254, 255));
+}
+.service-food{
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+}
+.explore_btn{
+    border: none;
+    background-color: #5A4BDA;
+    width: 130px;
+    height: 33px;
+    border-radius: 8px;
+    color: white;
+}
+.why{
+    height: 260px;
+    border-radius: 13px;
+}
+.learn_para{
+    font-size: 18px;
+    font-weight: 500;
+}
+.learnMore{
+    border: none;
+    background-color: #5A4BDA;
+    height: 36px;
+    width: 140px;
+    border-radius: 8px;
+    color: white;
+}
+.react_para{
+    color: rgb(113, 110, 110);
+    font-weight: 400;
+}
+.react_heading{
+    font-weight: bold;
+    font-size: 45px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width: 900px){
+    .main-bg{
+        height: 160vh;
+    }
+}
+@media only screen and (max-width: 600){
+    .main-bg{
+        height: 160vh;
+    }
+}
+
+/* footere */
+.main-footer {
+    width: 100%;
+    background-color: #eeeef3;
+    height: auto; /* Adjust height to fit content */
+    font-size: 14px;
+    padding: 20px; /* Add padding for better spacing */
+}
+
+.footer img {
+    margin-top: 1.5rem; /* Adjust margin top for smaller screens */
+}
+
+.main1 {
+    margin: auto;
+    width: 90%; /* Adjust width for smaller screens */
+}
+
+.information {
+    display: grid;
+    font-size: 18px; /* Decrease font size for smaller screens */
+    gap: 20px; /* Add gap between grid items */
+}
+
+.about {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    justify-content: center; /* Center items horizontally */
+    gap: 10px;
+}
+
+.social-meadia {
+    display: flex;
+    gap: 10px;
+}
+
+.text {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    /* gap: 10px; Add gap between items */
+    gap: 10px;
+}
+
+.facebook i,
+.linkdin i,
+.twiter i {
+    font-size: 24px; /* Decrease icon size for smaller screens */
+    background-image: none;
+}
+
+.about a {
+    text-decoration: none;
+    color: black;
+}
+
+.text a:hover {
+    color: orangered;
+    text-decoration: underline;
+}
+
+.adress {
+    display: flex;
+    flex-direction: column;
+}
+
+.ng-about {
+    margin-top: 2rem; /* Decrease margin top for smaller screens */
+    text-align: center;
+    font-size: 16px; /* Decrease font size for smaller screens */
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+    .information {
+        font-size: 16px; /* Decrease font size for smaller screens */
+    }
+
+    .footer img {
+        margin-top: 1rem; /* Adjust margin top for smaller screens */
+    }
+
+    .facebook i,
+    .linkdin i,
+    .twiter i {
+        font-size: 20px; /* Decrease icon size for smaller screens */
+    }
+
+    .ng-about {
+        margin-top: 1.5rem; /* Adjust margin top for smaller screens */
+    }
+}
+
+/* .card1{
+    height: 340px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+} */

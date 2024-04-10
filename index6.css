@@ -1,0 +1,15 @@
+.history_btn{
+    border: none;
+    background-color: #5A4BDA;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.ms-3{
+    color: rgb(116, 110, 110);
+    font-family: 'Times New Roman', Times, serif;
+}

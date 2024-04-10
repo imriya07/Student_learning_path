@@ -1,0 +1,20 @@
+.main{
+    height: 110vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, #ccccf5 , rgb(253, 254, 255));
+}
+.history_btn{
+    border: none;
+    background-color: #5A4BDA;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+.module_btn{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
